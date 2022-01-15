@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  color: white;
+}
+
+body{
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title {
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#binary-input-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 400px;
+  margin: 100px auto;
+  border: 2px solid white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#binary-input {
+  background-color: black;
+  border: 2px solid white;
+  margin: 15px auto;
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
