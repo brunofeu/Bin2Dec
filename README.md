@@ -1,6 +1,8 @@
 # Bin2Dec
 **Binary-to-Decimal number converter**
 
+#### Demo [here](https://brunofeu.github.io/Bin2Dec/)
+
 > This project was inspired by [Florin Pop's](https://github.com/florinpop17/app-ideas) list of ideas for apps.
 #
 
