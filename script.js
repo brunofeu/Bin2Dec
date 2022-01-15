@@ -16,13 +16,22 @@ const checkBinary = (event) => {
 }
 
 const convert = () => {
+  let convertResult = 0;
   const binary = binaryInput.value;
   if (!binary || binary === '') {
     result.innerHTML = 'Adicione um número para converter';
     result.style.color = 'red';
     return
   }
-  result.innerHTML = parseInt(binary,2);
+
+  let reverseBinary = binary.split("").reverse().join("");
+  for (let index = 0; index < reverseBinary.length ; index+=1 ) {
+    if (reverseBinary[index] === '1') {
+      convertResult += Math.pow(2, index);
+    }
+  }
+
+  result.innerHTML = convertResult;
 }
 
 sendButton.addEventListener('click', convert)
