@@ -9,6 +9,7 @@
 body{
   background-color: black;
   height: 100vh;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,4 +92,14 @@ body{
   color: rgb(60, 60, 60);
   position: fixed;
   bottom: 40px;
+}
+
+@media (max-width: 600px)
+{
+
+  #binary-input-container {
+  
+    max-width: 50%;
+
+  }
 }
