@@ -65,6 +65,11 @@ body{
   border-radius: 5px;
   font-size: 16px;
   border: none;
+  transition: 200ms;
+}
+
+#send-button:hover {
+  background-color: greenyellow;
 }
 
 #result {
