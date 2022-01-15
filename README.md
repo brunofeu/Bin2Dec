@@ -1,8 +1,7 @@
 # Bin2Dec
 **Binary-to-Decimal number converter**
 
-> This project was inspired by [Florin Pop's](https://github.com/florinpop17/app-ideas) list of ideas for apps. <br>
-Thank you Florin Pop for making these ideas available and helping us to grow in the development area
+> This project was inspired by [Florin Pop's](https://github.com/florinpop17/app-ideas) list of ideas for apps.
 #
 
 Binary is the number system all digital computers are based on.
